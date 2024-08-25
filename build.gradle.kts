@@ -15,7 +15,8 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.kotlinx.coroutines)
+    implementation(libs.androidx.lifecycle.viewmodel)
 }
 
 group = "cholwell.dev"
